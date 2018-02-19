@@ -1,0 +1,24 @@
+body{
+  font-family: "Time New Roman", Times, serif;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 2em
+}
+p {
+  color: red;
+  font-size: 1em;
+  text-align: center
+}
+h1 {
+  color: red;
+  font-size: 1em;
+  text-align: center
+}
+h2 {
+  color: Orange;
+  font-size: 1em;
+  text-align: center
+}
+#image1{
+  text-align: center;
+}
