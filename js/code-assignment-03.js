@@ -1,5 +1,5 @@
 // assign values to a set of variables representing a project's metadata
-let projectId = 1
+let projectId = yuewu123
 let projectTitle = 'GEOG 4046 Assignment Portfolio'
 let projectUrl = 'https://yuewu123.github.io/YueWu123.gitbuh.io/'
 let projectThumb= true
