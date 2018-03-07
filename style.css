@@ -1,24 +1,32 @@
 body{
-  font-family: "Time New Roman", Times, serif;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 2em
+  font-family: "Time New Roman", Times;
+  line-height: 0.5cm;
 }
 p {
-  color: red;
-  font-size: 1em;
+  color: black;
+  font-size: 2em;
   text-align: center
+  line-height:0.01cm;
 }
 h1 {
-  color: red;
-  font-size: 1em;
+  color: black;
+  font-size: 2em;
   text-align: center
 }
 h2 {
-  color: Orange;
-  font-size: 1em;
+  font-size: 2em;
   text-align: center
 }
 #image1{
   text-align: center;
+}
+.assignment_text{
+  text-align: left;
+  font-size: 20px;
+  line-height: 0.1cm
+}
+.assignment_image{
+  text-align: left;
+  font-size: 1.5em;
+  line-height: 0.1cm;
 }
