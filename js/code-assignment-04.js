@@ -1,10 +1,10 @@
-let webId = '1'
-let webTitle = 'GEOG 4046 Assignment Portfolio'
-let webtUrl = 'https://yuewu123.github.io/YueWu123.gitbuh.io/'
+let projectId = '1'
+let projectTitle = 'GEOG 4046 Assignment Portfolio'
+let projectUrl = 'https://yuewu123.github.io/YueWu123.gitbuh.io/'
 let projectDesc = 'This is a collection of maps created for Geog4046: web GIS'
-let webThumb= true
+let projectThumb= true
 
-let webArray = [
+let projectArray = [
   1,
   'Geog4046 Assignment Portfolio',
   'https://yuewu123.github.io/YueWu123.gitbuh.io/',
@@ -12,7 +12,7 @@ let webArray = [
   true
 ]
 
-let webObject = {
+let projectObject = {
   id: 1,
   title: 'GEOG 4046 Assignment Portfolio',
   url: 'https://yuewu123.github.io/YueWu123.gitbuh.io/',
