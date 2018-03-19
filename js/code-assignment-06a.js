@@ -15,15 +15,6 @@ let projects = [
   project2
 ]
 
-for (let i = 0; i < projects.length; i++) {
-  console.log('Index position' + i + 'title:' + projects[i].title)
-  if (projects[i].thumb === true){
-    console.log('images/ss-project-' + projects[i].id + '.png')
-  } else {
-    console.log('images/no-preview.pgn')
-  }
-}
-
 function describeFruit (fruit) {
   let description = 'The ' + fruit + ' is a delicious snack.'
   return description

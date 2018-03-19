@@ -19,6 +19,6 @@ fucntion createImageSrc (i) {
   }
 }
 
-$(document).ready(createTitle()){
+$(document).ready(){
   console.log('The guest click the Title.')
 }
