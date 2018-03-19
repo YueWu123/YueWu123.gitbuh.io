@@ -18,3 +18,7 @@ fucntion createImageSrc (i) {
     return 'images/no-preview.png'
   }
 }
+
+$(document).ready(createTitle()){
+  console.log('The guest click the Title.')
+}
