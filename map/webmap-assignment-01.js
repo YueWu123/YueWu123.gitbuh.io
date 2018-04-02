@@ -19,7 +19,7 @@ function logCurrentCoordinates (event) {
 mymap1.on('click', logCurrentCoordinates)
 
 let pointA = [30.5, -90.17]
-let pointB = [30.5, -90.18]
+let pointB = [30.5, -90.20]
 let pointC = [30.6, -90.17]
 let pointlist = [pointA, pointB, pointC]
 let polyline = L.polyline(pointlist
