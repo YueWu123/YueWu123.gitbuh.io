@@ -1,1 +1,7 @@
-#map1{height: 180px};
+.map {
+  height: 400px;
+}
+
+h1 {
+  text-align: center;
+}
