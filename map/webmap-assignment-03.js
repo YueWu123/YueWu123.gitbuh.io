@@ -5,8 +5,8 @@ let markerArray = [30.4	, -90.16]
 
 
 let myGreenIcon = L.icon({
-  iconUrl: 'a-green-leaf.png',
-  shadowUrl: 'leaf-shadow.png',
+  iconUrl: 'star.png',
+  shadowUrl: 'star-shadow.png',
   iconSize: [38, 95], // size of the icon
   shadowSize: [50, 64], // size of the shadow
   iconAnchor: [22, 94], // point of the icon which will correspond to marker's location
@@ -14,7 +14,7 @@ let myGreenIcon = L.icon({
   popupAnchor: [-3, -76] // point from which the popup should open relative to the iconAnchor
 })
 
-let station = L.marker([30.4	, -90.16], {icon: myGreenIcon}).addTo(mymap3);
+let station = L.marker([30.4	, -90.16], {icon: myStarIcon}).addTo(mymap3);
 
 
 let polygonCoords = [
