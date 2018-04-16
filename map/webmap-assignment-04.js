@@ -5,12 +5,12 @@ L.tileLayer(basemapUrl).addTo(statemap)
 
 let stateStyle = function (feature) {
   let housesize = feature.properties.AVE_HH_SZ
-  let stateColor = 'Olive'
-  if ( housesize < 2.5 ) { stateColor = 'orange' }
+  let stateColor = 'Black'
+  if ( housesize < 1.0 ) { stateColor = 'orange' }
 }
   stateStyle = function () {
   let formatting = {
-    color: 'red',
+    color: 'Black',
     weight: 1,
     fillOpacity: 0.2,
     bubblingMouseEvent: true
