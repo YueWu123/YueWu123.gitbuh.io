@@ -13,8 +13,15 @@ let myBasemaps = {
 }
 L.control.layers(myBasemaps).addTo(crimemap)
 
-let markerArray = [33	, -97]
-let marker = L.marker(markerArray).addTo(crimemap).bindPopup('Please click the link below of Dallas crime: '+ "<br>'<a href=https://www.neighborhoodscout.com/tx/dallas/crime> Dallas Crime Rate</a>'")
+let markerArray = [33 , -97]
+
+let mycrimeIcon = L.icon({
+  iconUrl: 'crime.png',
+  iconSize: [40, 30],
+  popupAnchor: [-3, -76],
+})
+
+let station = L.marker([33 , -97], {icon: mycrimeIcon}).addTo(crimemap).bindPopup('Please click the link below of Dallas crime: '+ "<br>'<a href=https://www.neighborhoodscout.com/tx/dallas/crime> Dallas Crime Rate</a>'");
 
   let crimetype = function (feature) {
   let personal = feature.properties.PERSONAL
