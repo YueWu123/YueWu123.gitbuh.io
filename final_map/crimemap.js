@@ -53,7 +53,7 @@ let createPopup = function(feature, layer){
   let robbery = feature.properties.ROBBERY
   let assault = feature.properties.ASSAULT
   layer.bindPopup('The census tract is ' + name + ';' + ' The number of personal crime is ' + personal + ';' + '<br>The number of murder is ' + murder + ';' +
-' The number of rape is ' + rape + ';' + '<br>The number of robbery is ' + robbery + ';' + ' The number of assault is ' + assault)
+' The number of rape is ' + rape + ';' + '<br>The number of robbery is ' + robbery + ';' + ' The number of assault is ' + assault + '<br>Please click the link below of Dallas crime: '+ "<br>'<a href=https://www.neighborhoodscout.com/tx/dallas/crime> Dallas Crime Rate</a>'")
 }
 
 
