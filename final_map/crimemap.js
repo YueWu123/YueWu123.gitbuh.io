@@ -21,7 +21,7 @@ let mycrimeIcon = L.icon({
   popupAnchor: [-3, -76],
 })
 
-let station = L.marker([33 , -97], {icon: mycrimeIcon}).addTo(crimemap).bindPopup('Please click the link below of Dallas crime: '+ "<br>'<a href=https://www.neighborhoodscout.com/tx/dallas/crime> Dallas Crime Rate</a>'");
+let station = L.marker([33 , -97], {icon: mycrimeIcon}).addTo(crimemap)
 
   let crimetype = function (feature) {
   let personal = feature.properties.PERSONAL
